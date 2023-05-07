@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0639E597-F6E7-42CF-BB52-87867F7BAFD7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QUANLYQUANNET</RootNamespace>
+    <AssemblyName>QUANLYQUANNET</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BangGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BangGia.Designer.cs">
+      <DependentUpon>BangGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Computer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Computer.Designer.cs">
+      <DependentUpon>Computer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CTSUDUNG.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CTSUDUNG.Designer.cs">
+      <DependentUpon>CTSUDUNG.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dangnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dangnhap.Designer.cs">
+      <DependentUpon>Dangnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frmcapnhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frmcapnhap.Designer.cs">
+      <DependentUpon>Frmcapnhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmInhoadon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmInhoadon.Designer.cs">
+      <DependentUpon>FrmInhoadon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmThemTaiKhoan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmThemTaiKhoan.Designer.cs">
+      <DependentUpon>FrmThemTaiKhoan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoaiHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoaiHang.Designer.cs">
+      <DependentUpon>LoaiHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MayTram.cs" />
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QLQNDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQNDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLQNDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQNDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLQNDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQNDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="QLQNDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>QLQNDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="SuaMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SuaMenu.Designer.cs">
+      <DependentUpon>SuaMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThemMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemMenu.Designer.cs">
+      <DependentUpon>ThemMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BangGia.resx">
+      <DependentUpon>BangGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Computer.resx">
+      <DependentUpon>Computer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CTSUDUNG.resx">
+      <DependentUpon>CTSUDUNG.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dangnhap.resx">
+      <DependentUpon>Dangnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frmcapnhap.resx">
+      <DependentUpon>Frmcapnhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmInhoadon.resx">
+      <DependentUpon>FrmInhoadon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmThemTaiKhoan.resx">
+      <DependentUpon>FrmThemTaiKhoan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoaiHang.resx">
+      <DependentUpon>LoaiHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SuaMenu.resx">
+      <DependentUpon>SuaMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ThemMenu.resx">
+      <DependentUpon>ThemMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="QLQNDataSet1.xsc">
+      <DependentUpon>QLQNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLQNDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLQNDataSet1.xss">
+      <DependentUpon>QLQNDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet11.xsc">
+      <DependentUpon>QLQNDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLQNDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLQNDataSet11.xss">
+      <DependentUpon>QLQNDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet2.xsc">
+      <DependentUpon>QLQNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLQNDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLQNDataSet2.xss">
+      <DependentUpon>QLQNDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet3.xsc">
+      <DependentUpon>QLQNDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="QLQNDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>QLQNDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="QLQNDataSet3.xss">
+      <DependentUpon>QLQNDataSet3.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\nuocuong.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\thucan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\nhanvien.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\help.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\setting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\PC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Image\giohang.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
