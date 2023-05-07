@@ -1,0 +1,13 @@
+C:\C#\SQL\QUANLYQUANNET\ClientNet\bin\Debug\ClientNet.exe.config
+C:\C#\SQL\QUANLYQUANNET\ClientNet\bin\Debug\ClientNet.exe
+C:\C#\SQL\QUANLYQUANNET\ClientNet\bin\Debug\ClientNet.pdb
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.csproj.AssemblyReference.cache
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.csproj.SuggestedBindingRedirects.cache
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.May1.resources
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.Properties.Resources.resources
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.csproj.GenerateResource.cache
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.csproj.CoreCompileInputs.cache
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.exe
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.pdb
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.Dangnhap.resources
+C:\C#\SQL\QUANLYQUANNET\ClientNet\obj\Debug\ClientNet.Dichvu.resources
