@@ -1,5 +1,6 @@
 # QLQN
 ## Giới thiệu
+- Quản lý quán net
 - Project này mình tạo ra để cho vui thử Server-Client bên C#
 - Có thể tham khảo code nếu muốn
 ## Hướng dẫn cài đặt
