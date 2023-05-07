@@ -46,11 +46,8 @@ Str : Data Source=LAPTOP-C7FI6G26\MAYAO;Initial Catalog=QLQN;Integrated Security
 QLQNConnection : Data Source=LAPTOP-C7FI6G26\MAYAO;Initial Catalog=QLQN;Integrated Security=True
 
 - Vậy là chạy được project rồi. Chúc bạn thành công
-1. Hướng dẫn sử dụng
-- Vào thiết lập trong phần mềm để thử các chức năng bảng dữ liệu 
-
-- Những chức năng còn lại đều dựa theo doanh nghiệp của quản lý quán net
-
+## Hướng dẫn sử dụng
+- Chạy server trước rồi chạy client sau
 
 
 
